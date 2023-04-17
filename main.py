@@ -15,8 +15,10 @@ while True:
 
     if escolha == "1":
         letrasenumeros.gerarsenha()
+        input("Aperte enter para prosseguir")
     elif escolha == "2":
         numeros.gerarnumeros()
+        input("Aperte enter para prosseguir")
     elif escolha == "3":
         print("saindo...")
         time.sleep(3)
